@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Final project</title>
+        <link rel="stylesheet" href="style.css">
+        <embed src="fsm-team-escp-daydreaming.mp3" hidden="true" autostart="true">
+
+    </head>
+    <body>
+      <h2>~飲料店~</h2><br>
+      <h4>元智天氣☂️</h4>
+      <div id="result"></div>
+      <div class="container">
+        <div class="d-flex">
+          <div class="target d-flex" id="target1">
+            <div class="box" id="box1" draggable="true">紅茶</div>
+            <div class="box" id="box2" draggable="true">綠茶</div>
+            <div class="box" id="box3" draggable="true">奶茶</div>
+          </div>
+          <div class="target d-flex" id="target2"> </div>
+        </div>
+      </div>      
+      <div>
+        <p>Num:</p>
+        <ul>
+          <li class="red-tea">紅茶：<a>0</a></li>
+          <li class="green-tea">綠茶：<a>0</a></li>
+          <li class="milk-tea">奶茶：<a>0</a></li>
+        </ul>
+      </div>
+      <script src="//unpkg.com/jquery"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://www.youtube.com/iframe_api"></script>
+      <script src="playList.js"></script>
+      <script src="main.js"></script>    
+      <input type="button" value="確認" id="submit">
+      <input type="button" value="清空" id="clear"><br>
+    </body>
+</html>
